@@ -1,6 +1,6 @@
-version: '2'
+#version: '2'
 
-services:
+#services:
   ghost:
     image: ghost
     container_name: ghost
