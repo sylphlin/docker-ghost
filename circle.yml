@@ -11,4 +11,4 @@ test:
     - docker -v
     - docker-compose -v
   override:
-    ./test/test.sh
+    - ./test/test.sh
