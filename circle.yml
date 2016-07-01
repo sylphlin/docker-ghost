@@ -5,3 +5,9 @@ machine:
 dependencies:
   pre:
     - docker-compose up -d 
+
+test:
+  pre:
+    - docker -v
+    - docker-compose -v
+
