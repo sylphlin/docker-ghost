@@ -10,4 +10,5 @@ test:
   pre:
     - docker -v
     - docker-compose -v
-
+  override:
+    ./test/test.sh
