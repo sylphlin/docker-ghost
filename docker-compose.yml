@@ -8,7 +8,7 @@
       - "2368:2368"
     volumes:
       - ./ghost/config.js:/var/lib/ghost/config.js
-      - ./ghost/theme/:/var/lib/ghost/theme/
+      - ./ghost/themes/:/var/lib/ghost/themes/
       - ./ghost/data/:/var/lib/ghost/data/
     environment:
       - NODE_ENV=production
